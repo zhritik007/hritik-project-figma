@@ -1,0 +1,65 @@
+/* Gallery container styling */
+.gallery-container {
+    background-color: #2e2e2e;
+    border-radius: 10px;
+    padding: 1.5rem;
+    width: 100%;
+    max-width: 600px;
+    margin-top: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Header of the gallery with title and add button */
+  .gallery-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    margin-bottom: 1rem;
+  }
+  
+  .add-image-btn {
+    background-color: #3e3e3e;
+    border: none;
+    color: #fff;
+    padding: 0.5rem 1.5rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .add-image-btn:hover {
+    background-color: #444;
+  }
+  
+  /* Image container and navigation arrows */
+  .gallery-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    position: relative;
+  }
+  
+  .gallery-arrow {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+    padding: 0 15px;
+    transition: color 0.3s ease;
+  }
+  
+  .gallery-arrow:hover {
+    color: #888;
+  }
+  
+  .gallery-images img {
+    width: 80px;
+    height: 80px;
+    margin: 0 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  }
+  
